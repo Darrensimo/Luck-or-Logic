@@ -545,41 +545,35 @@ nav {
 /* Teams Section */
 .teams-section {
     max-width: 1200px;
-    margin: 80px auto;
+    margin: 150px auto;
     padding: 0 30px;
 }
 
 .teams-header {
     text-align: center;
-    margin-bottom: 60px;
+    margin: 0 35% 60px 35%;
 }
 
-.teams-btn {
-    background: #40e0d0;
-    color: #0a1628;
-    padding: 12px 40px;
+.teams {
+    background: linear-gradient(100deg, #10C58B, #00CFF9);
+    color: #fcfcfc;
+    padding: 12px 10px;
     border: none;
     border-radius: 25px;
     font-weight: bold;
-    cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.7rem;
+    text-shadow: #000 1px 2px 1px;
     transition: all 0.3s;
-}
-
-.teams-btn:hover {
-    background: #20b2aa;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(64, 224, 208, 0.4);
 }
 
 .teams-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 20vh;
 }
 
 .team-card {
-    padding: 30px;
+    padding: 15px;
     border-radius: 20px;
     position: relative;
     overflow: hidden;
@@ -591,11 +585,11 @@ nav {
 }
 
 .team-card.luck {
-    background: linear-gradient(135deg, #4eff8e 0%, #2d8a5f 100%);
+    background: linear-gradient(300deg, #5BAF4AF7 0%, #28846B 100%);
 }
 
 .team-card.logic {
-    background: linear-gradient(135deg, #00d4ff 0%, #0077b6 100%);
+    background: linear-gradient(300deg, #00CFF9 0%, #2584F1 100%);
 }
 
 .team-image {
@@ -603,7 +597,7 @@ nav {
     height: 220px;
     border-radius: 15px;
     overflow: hidden;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     border: 3px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -614,55 +608,82 @@ nav {
 }
 
 .team-card h3 {
-    margin: 20px 0 15px;
-    font-size: 1.8rem;
+    font-family: poppins, sans-serif;
+    margin: 10px 0 10px;
+    font-size: 2rem;
     color: white;
+    text-align: center;
 }
 
 .team-card p {
     color: rgba(255, 255, 255, 0.95);
     line-height: 1.8;
-    margin-bottom: 25px;
-    font-size: 0.95rem;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
-.join-btn {
-    background: rgba(255, 255, 255, 0.2);
+.luck-btn {
+    background: linear-gradient(300deg, #5BAF4AF7 0%, #28846B 100%);
     color: white;
     padding: 12px 40px;
-    border: 2px solid white;
     border-radius: 25px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s;
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 1px 8px #000000;
 }
 
-.join-btn:hover {
+.luck-btn:hover {
+    background: white;
+    color: #0a1628;
+}
+
+.logic-btn {
+    background: linear-gradient(300deg, #00CFF9 0%, #2584F1 100%);
+    color: white;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 1px 8px #000000;
+}
+
+.logic-btn:hover {
     background: white;
     color: #0a1628;
 }
 
 /* Final Question Section */
 .final-question {
+    font-family: poppins, sans-serif;
     max-width: 1200px;
-    margin: 80px auto;
-    padding: 40px 30px;
+    margin: auto;
+    padding: 10px 30px;
     text-align: center;
+    margin-bottom: 75px;
 }
 
 .final-question h3 {
     font-size: 1.8rem;
-    color: #40e0d0;
-    margin-bottom: 30px;
+    color: #ececec;
+    margin-bottom: 20px;
 }
 
 .questions p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.9);
-    margin: 15px 0;
     line-height: 1.8;
+    margin-bottom: 5px;
 }
 
 /* Footer Styles */

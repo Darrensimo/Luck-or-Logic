@@ -9,12 +9,12 @@
 <body>
     <nav>
         <div class="logo">
-            <img src="/assets/Logo.png" alt="">
+            <img src="../../assets/Logo.png" alt="">
         </div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#event" class="active">Event</a></li>
-                <li><a href="#team">Our Team</a></li>
+                <li><a href="../home/home.html">Home</a></li>
+                <li><a href="../event/event.html" class="active">Event</a></li>
+                <li><a href="../mot/mot.html">Our Team</a></li>
                 <li><a href="#daftar">Daftar</a></li>
                 <li><a href="#login">Login</a></li>
             </ul>
@@ -29,7 +29,7 @@
         </div>
         <div class="hero-image">
             <div class="image-card">
-                <img src="/assets/timoty.png">
+                <img src="../../assets/timoty.png">
             </div>
         </div>
     </section>
@@ -77,13 +77,13 @@
         <div class="carousel-container">
             <div class="carousel" id="carousel">
                 <div class="carousel-slide">
-                    <img src="/assets/nasihuy.png">
+                    <img src="../../assets/nasihuy.png">
                 </div>
                 <div class="carousel-slide">
-                    <img src="/assets/penjaruy.jpeg">
+                    <img src="../../assets/penjaruy.jpeg">
                 </div>
                 <div class="carousel-slide">
-                    <img src="/assets/sunda.jpg">
+                    <img src="../../assets/sunda.jpg">
                 </div>
             </div>
             <button class="carousel-nav prev" id="prevBtn">◀</button>
@@ -140,10 +140,43 @@
         </div>
     </section>
 
-    <!-- Team Selection Section -->
     <section class="teams-section" id="team">
         <div class="teams-header">
-            <button class="teams-btn">Choose Your Team</button>
+            <h3 class="teams">Choose Your Team</h3>
+        </div>
+
+        <div class="teams-grid">
+            <div>
+                <div class="team-card luck">
+                    <div class="team-image">
+                        <img src="../../assets/penjaruy.jpeg" alt="Team Luck">
+                    </div>
+                    <h3>🎲 Team Luck</h3>
+                    <p>Uses the gacha system to determine:<br>👉Which stock to buy<br>👉How much to invest<br>👉When to enter or exit<br>No strategy. No charts. Just fate.</p>
+                </div>
+                <button class="luck-btn">JOIN TEAM</button>
+            </div>
+           
+            <div>
+                <div class="team-card logic">
+                    <div class="team-image">
+                        <img src="../../assets/sunda.jpg" alt="Team Logic">
+                    </div>
+                    <h3>📈 Team Logic</h3>
+                    <p>Uses proper investing methods such as:<br>👉Technical and fundamental analysis<br>👉Risk management<br>👉Market sentiment and trends<br>Rational decision-making (hopefully)</p>
+                </div>
+                <button class="logic-btn">JOIN TEAM</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Question Section -->
+    <section class="final-question">
+        <h3>At the end, we compare the final portfolios to reveal:</h3>
+        <div class="questions">
+            <p>👉 Did luck beat analysis?</p>
+            <p>👉 Did discipline triumph over randomness?</p>
+            <p>👉 Or did everyone suffer together because the market said "no"?</p>
         </div>
     </section>
 
